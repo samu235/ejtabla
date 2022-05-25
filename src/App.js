@@ -16,7 +16,6 @@ function App() {
       })
       .then(jsondata => {
         setData(jsondata)
-        console.log(jsondata)
       });
   }, [])
 
